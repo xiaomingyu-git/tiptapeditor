@@ -58,6 +58,8 @@ import DragHandle from '@tiptap/extension-drag-handle-react'
 
 
 
+
+
 // --- UI Primitives ---
 import { Button } from "@/components/tiptap-ui-primitive/button"
 import { Spacer } from "@/components/tiptap-ui-primitive/spacer"
@@ -79,6 +81,8 @@ import "@/components/tiptap-node/heading-node/heading-node.scss"
 import "@/components/tiptap-node/paragraph-node/paragraph-node.scss"
 import "@/components/tiptap-node/drag-handle-node/drag-handle-node.scss"
 import "@/components/tiptap-node/code-block-node/code-block-lowlight.scss"
+
+
 
 // --- Tiptap UI ---
 import { HeadingDropdownMenu } from "@/components/tiptap-ui/heading-dropdown-menu"
@@ -357,6 +361,8 @@ export function SimpleEditor() {
         upload: handleImageUpload,
         onError: (error) => console.error("Upload failed:", error),
       }),
+
+
 
     ],
     content,
